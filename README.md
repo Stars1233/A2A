@@ -1,6 +1,6 @@
 # Agent2Agent (A2A) Protocol
 
-![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)
+[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)
 [![Apache License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 ![A2A Banner](docs/assets/a2a-banner.png)
@@ -16,9 +16,9 @@ With A2A, agents can:
 - Securely collaborate on long running tasks.
 - Operate without exposing their internal state, memory, or tools.
 
-## See A2A in Action
+## Intro to A2A Video
 
-Watch [this demo video](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) to see how A2A enables seamless communication between different agent frameworks.
+[![A2A Intro Video](docs/assets/a2a-video-thumbnail.png)](https://goo.gle/a2a-video)
 
 ## Why A2A?
 
