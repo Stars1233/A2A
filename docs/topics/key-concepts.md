@@ -24,7 +24,8 @@ The Agent2Agent (A2A) protocol is built around a set of core concepts that defin
     - When a client sends a message to an agent, the agent might determine that fulfilling the request requires a stateful task to be completed (e.g., "generate a report," "book a flight," "answer a question").
     - Each task has a unique ID defined by the agent and progresses through a defined lifecycle (e.g., `submitted`, `working`, `input-required`, `completed`, `failed`).
     - Tasks are stateful and can involve multiple exchanges (messages) between the client and the server.
-    - See details in the [Protocol Specification: Task Object](../specification.md#61-task-object).
+    - See details in the [Life of a Task](./life-of-a-task.md).
+    - Protocol specification: [Task Object](../specification.md#61-task-object).
 
 - **Message:**
 
@@ -70,6 +71,10 @@ The Agent2Agent (A2A) protocol is built around a set of core concepts that defin
     - This requires the server to advertise the `pushNotifications` capability in its Agent Card.
     - Learn more about [Streaming & Asynchronous Operations](./streaming-and-async.md).
 
+## Agent Response: Task or Message
+
+See details in the [Life of a Task](./life-of-a-task.md).
+
 ## Other Important Concepts
 
 - **Context (`contextId`):** A server-generated identifier that can be used to logically group multiple related `Task` objects, providing context across a series of interactions.
@@ -78,5 +83,7 @@ The Agent2Agent (A2A) protocol is built around a set of core concepts that defin
     - Learn more about [Enterprise-Ready Features](./enterprise-ready.md).
 - **Agent Discovery:** The process by which clients find Agent Cards to learn about available A2A Servers and their capabilities.
     - Learn more about [Agent Discovery](./agent-discovery.md).
+- **Extensions:** A2A allows agents to declare custom protocol extensions as part of their AgentCard.
+    - More documentation coming soon.
 
 By understanding these core components and mechanisms, developers can effectively design, implement, and utilize A2A for building interoperable and collaborative AI agent systems.

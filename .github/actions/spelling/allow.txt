@@ -26,6 +26,7 @@ EBFF
 EUR
 EUg
 FBT
+FHIR
 GAPI
 GAPIC
 GBP
@@ -86,6 +87,7 @@ autouse
 backstory
 backticks
 bbb
+bufbuild
 bzr
 cae
 ccc
@@ -141,10 +143,12 @@ iss
 jherr
 jti
 jwks
+konami
 kty
 langgraph
 linenums
 linkedin
+linting
 llm
 llms
 lng
@@ -152,6 +156,7 @@ marvin
 mcp
 mesop
 mindsdb
+motherlode
 mozilla
 msword
 multiagent
@@ -164,7 +169,9 @@ objc
 octicons
 ollama
 oneof
+pqr
 prefecthq
+protoc
 protolint
 pyguide
 pymdownx
@@ -181,6 +188,7 @@ squidfunk
 srcs
 sse
 stateclass
+stephenh
 styleguide
 svn
 systemctl
