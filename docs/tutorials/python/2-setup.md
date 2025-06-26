@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Python 3.13 or higher.
+- Python 3.10 or higher.
 - Access to a terminal or command prompt.
 - Git, for cloning the repository.
 - A code editor (e.g., Visual Studio Code) is recommended.
@@ -12,7 +12,7 @@
 If you haven't already, clone the A2A Samples repository:
 
 ```bash
-git clone https://github.com/google-a2a/a2a-samples.git -b main --depth 1
+git clone https://github.com/a2aproject/a2a-samples.git -b main --depth 1
 cd a2a-samples
 ```
 
